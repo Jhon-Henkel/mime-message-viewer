@@ -1,0 +1,10 @@
+/.phpunit.cache
+/node_modules
+/vendor
+.phpunit.result.cache
+npm-debug.log
+/.idea
+.docker
+tests/coverage
+.phpunit.cache/
+node_modules
