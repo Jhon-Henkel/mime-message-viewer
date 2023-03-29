@@ -2,11 +2,13 @@
     --climba-blue: #1c1d3b;
     --climba-green: #39b500;
 }
-body {
+
+.body-home {
     font-family: "Roboto Mono", monospace;
     background-color: var(--climba-blue);
     color: var(--climba-green);
 }
+
 .btn-climba {
     background-color: var(--climba-green);
     color: var(--climba-blue);
@@ -18,16 +20,31 @@ body {
     font-weight: 500;
     border: none;
     padding: 12px 0;
-    border-radius: 3px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .3s;
+    border-radius: 5px;
 }
 
 .btn-climba:hover {
     filter: brightness(0.8);
     background-color: var(--climba-green);
     color: var(--climba-blue);
+}
+
+.body-content-viewer {
+    background-color: var(--climba-blue);
+}
+
+.mail-content {
+    border-radius: 10px;
+}
+
+.content-viewer-title {
+    background-color: var(--climba-green);
+    font-family: "Roboto Mono", monospace;
+    color: var(--climba-blue);
+    border-radius: 5px;
 }
