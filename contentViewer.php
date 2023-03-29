@@ -15,7 +15,7 @@
             <?php
                 require_once __DIR__.'/vendor/autoload.php';
                 if (isset($_POST['acao']) && $_POST['acao'] == 'parsing'):
-                    $inputContent = json_decode($_POST['content'])->MIMEMessage ?? 'Sem conteúdo';
+                    $inputContent = json_decode($_POST['content'])->MIMEMessage ?? 'Sem conteúdo HTML no mime message!';
             ?>
                 <div class="container mt-5 bg-body-tertiary mail-content">
                     <div class="col-12">
